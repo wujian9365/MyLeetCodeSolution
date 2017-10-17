@@ -7,7 +7,7 @@ public class ReverseInteger {
             n = x%10;
             ans =ans + n;
             x = x/10;
-            if( ans > Integer.MAX_VALUE || ans < Integer.MIN_VALUE) {return 0;}
+            if( ans > Integer.MAX_VALUE || ans < Integer.MIN_VALUE) {return 0;} // balabalabala
         }
         return (int)ans;
 
